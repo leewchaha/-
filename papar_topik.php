@@ -27,6 +27,7 @@ style='font-size:18px'>
 <?php
 $no=1;
 $data1=mysqli_query($hubung,"SELECT * FROM topik");
+	var_dump(mysqli_num_rows($data1));
 while ($info1=mysqli_fetch_array($data1))
 ?>
 { 
